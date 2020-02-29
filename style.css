@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
+
+body {
+    background-color: rgb(223, 215, 204);
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 10px;
+
+
+}
+
+h1 {
+    margin-bottom: 80px;
+    font-size: 3rem;
+    color: black;
+}
+
+#arabicNum {
+    outline: 0;
+    width: 38.5vw;
+    margin: 10px 0;
+    height: 80px;
+    padding: 2px;
+    padding-left: 20px;
+    border-style: none;
+    border-radius: 5px;
+    background: white;
+    font-size: 2.5rem;
+    color: black;
+    text-align: left;
+    font-weight: bold;
+}
+
+#romanNum {
+    outline: 0;
+    width: 38.5vw;
+    margin: 10px 0;
+    height: 80px;
+    padding: 2px;
+    padding-left: 20px;
+    border-style: none;
+    border-radius: 5px;
+    background: white;
+    font-size: 2.5rem;
+    color: black;
+    text-align: left;
+    font-weight: bold;
+
+}
+
+.main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px;
+    height: 96vh;
+}
+
+@media(max-width: 500px) {
+    body {
+        padding-top: 20px;
+    }
+
+    h1 {
+        font-size: 2rem;
+    }
+
+    input {
+        width: 90vw;
+        font-size: 2rem;
+    }
+
+}
+
+#name_input {
+    margin-top: 50px;
+    font-size: 2.5em;
+    font-weight: bolder;
+}
