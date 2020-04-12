@@ -1,6 +1,14 @@
 const arabicInput = document.getElementById("arabicNum");
 const romanInput = document.getElementById("romanNum");
 
+
+arabicInput.addEventListener('mousemove', function changeColor (e) {
+    document.body.style.background = "rgb("+e.offsetX+","+e.offsetY+",10)";
+})
+
+
+
+
 arabicInput.addEventListener("input", (e) => {
     romanNum.value = convertToRoman(e.target.value);
 });
