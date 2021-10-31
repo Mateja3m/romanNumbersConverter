@@ -1,23 +1,35 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="icon" type="image/x-icon" href="eight.png">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" type="image/x-icon" href="eight.png" />
     <title>Roman Numbers Converter</title>
-    <link rel="stylesheet" href="style.css">
-</head>
+    <link rel="stylesheet" href="style.css" />
+  </head>
 
-<body>
+  <body>
     <div class="main">
-        <h1>Roman Numbers Converter</h1>
-        <form action="#">
-            <input type="text" id="arabicNum" name="arabic numbers" placeholder="Enter numbers..."> <br>
-            <input type="text" name="roman numbers" id="romanNum" placeholder="Output roman numbers...">
-        </form>
+      <h1>Roman Numbers Converter</h1>
+      <form class="input-fields" action="#">
+        <label>Enter Arabic Numbers:</label>
+        <input
+          type="text"
+          id="arabicNum"
+          class="num"
+          name="arabic numbers"
+          placeholder="Enter numbers"
+        />
+        <label>Output Roman Numbers:</label>
+        <input
+          type="text"
+          name="roman numbers"
+          id="romanNum"
+          class="num"
+          placeholder="Output numbers"
+        />
+      </form>
     </div>
     <script src="script.js"></script>
-</body>
-
+  </body>
 </html>

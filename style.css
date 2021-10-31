@@ -1,80 +1,47 @@
-@import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
-
-body {
-    background-color: rgb(223, 215, 204);
-    font-family: 'Roboto', sans-serif;
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-size: 10px;
-    cursor: pointer;
-}
-
-h1 {
-    margin-bottom: 80px;
-    font-size: 3rem;
-    color: black;
-}
-
-#arabicNum {
-    outline: 0;
-    width: 38.5vw;
-    margin: 10px 0;
-    height: 80px;
-    padding: 2px;
-    padding-left: 20px;
-    border-style: none;
-    border-radius: 5px;
-    background: white;
-    font-size: 2.5rem;
-    color: black;
-    text-align: left;
-    font-weight: bold;
-}
-
-#romanNum {
-    outline: 0;
-    width: 38.5vw;
-    margin: 10px 0;
-    height: 80px;
-    padding: 2px;
-    padding-left: 20px;
-    border-style: none;
-    border-radius: 5px;
-    background: white;
-    font-size: 2.5rem;
-    color: black;
-    text-align: left;
-    font-weight: bold;
-
+* *::after *::before {
+  margin: 0;
+  padding: 0;
 }
 
 .main {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    padding: 10px;
-    height: 96vh;
+  font-family: open-sans;
 }
 
-@media(max-width: 500px) {
-    body {
-        padding-top: 20px;
-    }
-
-    h1 {
-        font-size: 2rem;
-    }
-
-    input {
-        width: 90vw;
-        font-size: 2rem;
-    }
-
+h1 {
+  margin: 30px 10px;
+  font-size: 3rem;
+  color: white;
+  text-align: center;
 }
 
-#name_input {
-    margin-top: 50px;
-    font-size: 2.5em;
-    font-weight: bolder;
+.input-fields {
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+  max-width: 50%;
+  margin-top: 50px;
+}
+
+.num {
+  border: 2px solid black;
+  outline: 0;
+  padding: 10px;
+  border-radius: 5px;
+  background: white;
+  font-size: 1.8rem;
+  color: black;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+::placeholder {
+  opacity: 0.6;
+  font-size: 1.5rem;
+}
+
+label {
+  color: white;
+  font-size: 1.8rem;
+  margin: 40px 0px 2px 0px;
 }
